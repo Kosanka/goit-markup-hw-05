@@ -75,6 +75,7 @@ header {
   display: flex;
 }
 .menu-link {
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -100,6 +101,7 @@ header {
   height: 12px;
   fill: var(--primary-text-color);
   margin-right: 10px;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -108,6 +110,7 @@ header {
   height: 16px;
   fill: var(--primary-text-color);
   margin-right: 10px;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -137,6 +140,7 @@ header {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   display: flex;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -348,6 +352,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -357,6 +362,7 @@ header {
 }
 .social-icon {
   fill: #afb1b8;
+  transition-property: var(--accent-color), #ffffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -396,7 +402,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
+
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -412,6 +420,7 @@ header {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -455,6 +464,7 @@ header {
   font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -495,22 +505,24 @@ header {
   align-items: center;
   justify-content: center;
   background-color: #44454e;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 .footer-social-icon {
   fill: #ffffff;
+  transition-property: var(--accent-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 /*-----------------portfolio-------------------------------------------------------*/
@@ -535,6 +547,7 @@ header {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
+  transition-property: var(--accent-color), #ffffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -558,6 +571,7 @@ header {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
+  transition-property: rgba(0, 0, 0, 0.25);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
