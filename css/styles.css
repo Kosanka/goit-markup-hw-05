@@ -522,7 +522,41 @@ header {
 .footer-social-link:focus .footer-social-icon {
   background-color: var(--accent-color);
 }
-
+/* ----------------backdrop-------------------------------------------- */
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+}
+.modal {
+  position: absolute;
+  width: 500px;
+  min-height: 581px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-btn {
+  border: 1px solid #999999;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
 /*-----------------portfolio-------------------------------------------------------*/
 
 .section-portfolio {
